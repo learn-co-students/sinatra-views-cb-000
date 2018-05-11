@@ -7,4 +7,9 @@ class App < Sinatra::Base
 		erb :index
 	end
 
+	# create multiple routes with multiple views
+	get "/info" do
+    erb :info
+  end
+
 end
